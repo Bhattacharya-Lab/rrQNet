@@ -42,7 +42,7 @@ We give an example of running rrQNet on CASP12 FM target T0869.
 
 Run `python rrQNet.py -p ./examples/input/T0968s2.out.npy -r ./examples/input/T0968s2.L.6.fl.metapsicov.rr -m ./model/rrQNet_train_55_40/ -L 1 -t T0968s2.metapsicov > out.txt`
 
-The estimated quality score along with selected contacts is generated at `out.txt`. the output should look like [this](examples/output/T0968s2.txt)
+The estimated quality score along with selected contacts is generated at `out.txt`. the output should look like [this](examples/output/T0968s2.metapsicov.txt)
 
 rrQNet is very fast. On average it takes only a few seconds on a single core to run rrQNet. However, the running time depends on the sequence length of the target protein. For longer targets, it may take a few minutes to complete.
 
