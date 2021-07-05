@@ -48,10 +48,6 @@ parser.add_option('-r', dest='rr',
 parser.add_option('-m', dest='model',
         default= '',    #default empty!'
         help= 'path to the model')
-parser.add_option('-L', dest='xL',
-        default= '1',    #default L'
-        help= 'top xL contacts in the contact matrix (default = 1)')
-
 parser.add_option('-t', dest='tgt',
         default= 'target',    #default target
         help= 'name of target')
@@ -60,10 +56,11 @@ parser.add_option('-t', dest='tgt',
 (options,args) = parser.parse_args()
 
 tgt = options.tgt
-xL = options.xL
 pre = options.pre
 lmodel = options.model
 rr = options.rr
+
+xL = 1
 
 def print_usage():
     print("\nUsage: rrQNet.py [options]\n")
@@ -73,7 +70,6 @@ def print_usage():
     print("  -p PRE      precision matrix (npy format)")
     print("  -r RR       residue-residue contact map (rr format)")
     print("  -m MODEL    path to the model")
-    print("  -L XL       top xL contacts in the contact matrix (default = 1)")
     print("  -t TGT      name of target")
     
 #basic input check
