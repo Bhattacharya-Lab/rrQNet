@@ -23,7 +23,6 @@ Options:
   -p PRE      precision matrix (npy format)
   -r RR       residue-residue contact map (rr format)
   -m MODEL    path to the model
-  -L XL       top xL contacts in the contact matrix (default = 1)
   -t TGT      name of target
 
 ```
@@ -33,14 +32,13 @@ Options:
 - Precision matrix (-p): Precision matrix from a multiple sequence alignment can be obtained using [ResPRE](https://github.com/leeyang/ResPRE). For example, see `./example/input/T0968s2.out.npy`
 - Contact map (-r): The first line contains the amino acid sequence followed by list of contact rows using a five-column format similar to CASP RR format. In each contact row, first two columns are the residue pairs in contact, third and fourth columns are lower and upper bounds of their distance (in Å) respectively, and fifth column is a real number indicating the probability of the two residues being in contact. For example, see `./examples/input/T0968s2.L.6.fl.metapsicov.rr`   
 - Model (-m): Path to the directory that contains trained model. For example, see `./model/rrQNet_55_40/`
-- Normalizing factor (-L): To normalize top xL contacts, where L is the sequence length of protein. For example, use `-L 1` to normalize top L contacts. 
 - Target (-t): Name of the target
 
 ### Test rrQNet
 
 We give an example of running rrQNet on CASP12 FM target T0869.
 
-Run `python rrQNet.py -p ./examples/input/T0968s2.out.npy -r ./examples/input/T0968s2.L.6.fl.metapsicov.rr -m ./model/rrQNet_train_55_40/ -L 1 -t T0968s2.metapsicov > out.txt`
+Run `python rrQNet.py -p ./examples/input/T0968s2.out.npy -r ./examples/input/T0968s2.L.6.fl.metapsicov.rr -m ./model/rrQNet_train_55_40/ -t T0968s2.metapsicov > out.txt`
 
 The estimated quality score along with selected contacts is generated at `out.txt`. the output should look like [this](examples/output/T0968s2.metapsicov.txt)
 
