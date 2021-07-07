@@ -74,15 +74,15 @@ def print_usage():
     
 #basic input check
 if (pre == ''):
-    print ('Error! precision matrix file must be provided. Exiting ...')
+    print ('Error! Precision matrix file must be provided. Exiting ...')
     print_usage()
     sys.exit()
 if (rr == ''):
-    print ('Error! contact map must be provided. Exiting ...')
+    print ('Error! Contact map must be provided. Exiting ...')
     print_usage()
     sys.exit()
 if (lmodel == ''):
-    print ('Error! contact path to the trained model must be provided. Exiting ...')
+    print ('Error! Path to the trained model must be provided. Exiting ...')
     print_usage()
     sys.exit()
 
