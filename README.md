@@ -46,4 +46,6 @@ rrQNet is very fast. On average it takes only a few seconds on a single core to 
 
 ## Data
 
+Target-by-target results and supplementary information can be found [here](https://drive.google.com/drive/folders/1J8q37Pi6Z95bt79l6OVoBWNrpyPa_t0r?usp=sharing)
+
 ## Cite
