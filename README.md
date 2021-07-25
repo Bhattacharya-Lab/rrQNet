@@ -7,6 +7,7 @@
 Installing rrQNet is very straightforward. The following instructions should work for 64-bit Linux system:
 
 - Make sure you have Python with NumPy and TensorFlow installed. rrQNet has been tested on Python 3.8.5 (numpy version 1.18.4 and TensorFlow version 2.3.0), but it should run on higher versions as well.
+- Download and unzip the model from [here]()
 
 That's it! rrQNet is ready to be used.
 
@@ -47,5 +48,8 @@ rrQNet is very fast. On average it takes only a few seconds on a single core to 
 ## Data
 
 Target-by-target results and supplementary information can be found [here](https://drive.google.com/drive/folders/1J8q37Pi6Z95bt79l6OVoBWNrpyPa_t0r?usp=sharing)
+Input files can be found [here]()
+Output files can be found [here]()
+All other models can be found [here]()
 
 ## Cite
