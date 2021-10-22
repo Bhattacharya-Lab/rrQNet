@@ -1,6 +1,6 @@
 # rrQNet
 
-<h2>Residue-residue quality estimation net</h2> 
+<h2>Protein contact map quality estimation by deep evolutionary reconciliation</h2> 
 
 ## Installation
 
