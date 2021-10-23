@@ -7,7 +7,7 @@
 Installing rrQNet is very straightforward. The following instructions should work for 64-bit Linux system:
 
 - Make sure you have Python with NumPy and TensorFlow installed. rrQNet has been tested on Python 3.8.5 (numpy version 1.18.4 and TensorFlow version 2.3.0), but it should run on higher versions as well.
-- Download and unzip the model from [here](watson.cse.eng.auburn.edu/home/project/recon3D/ConQuest/public_release/model.tar.gz)
+- Download and unzip the model from [here](/home/project/recon3D/ConQuest/public_release/model.tar.gz)
 
 That's it! rrQNet is ready to be used.
 
@@ -47,7 +47,7 @@ rrQNet is very fast. On average it takes only a few seconds on a single core to 
 
 ## Data
 
-1. Input files can be found [here](watson.cse.eng.auburn.edu/home/project/recon3D/ConQuest/public_release/inputs.tar.gz)
-2. Output files can be found [here](watson.cse.eng.auburn.edu/home/project/recon3D/ConQuest/public_release/outputs.tar.gz)
+1. Input files can be found [here](/home/project/recon3D/ConQuest/public_release/inputs.tar.gz)
+2. Output files can be found [here](/home/project/recon3D/ConQuest/public_release/outputs.tar.gz)
 
 ## Cite
