@@ -7,7 +7,7 @@
 Installing rrQNet is very straightforward. The following instructions should work for 64-bit Linux system:
 
 - Make sure you have Python with NumPy and TensorFlow installed. rrQNet has been tested on Python 3.8.5 (numpy version 1.18.4 and TensorFlow version 2.3.0), but it should run on higher versions as well.
-- Download and unzip the model from [here]()
+- Download and unzip the model from [here](watson.cse.eng.auburn.edu/home/project/recon3D/ConQuest/public_release/model.tar.gz)
 
 That's it! rrQNet is ready to be used.
 
@@ -30,7 +30,7 @@ Options:
 
 ### File formats and parameters
 
-- Precision matrix (-p): Precision matrix from a multiple sequence alignment can be obtained using [ResPRE](https://github.com/leeyang/ResPRE). For example, see `./example/input/T0968s2.out.npy`
+- Precision matrix (-p): Precision matrix is obtained from multiple sequence alignment. For example, see `./example/input/T0968s2.out.npy`
 - Contact map (-r): The first line contains the amino acid sequence followed by list of contact rows using a five-column format similar to CASP RR format. In each contact row, first two columns are the residue pairs in contact, third and fourth columns are lower and upper bounds of their distance (in Å) respectively, and fifth column is a real number indicating the probability of the two residues being in contact. For example, see `./examples/input/T0968s2.L.6.fl.metapsicov.rr`   
 - Model (-m): Path to the directory that contains trained model. For example, see `./model/rrQNet_train_55_40/`
 - Target (-t): Name of the target
@@ -47,9 +47,7 @@ rrQNet is very fast. On average it takes only a few seconds on a single core to 
 
 ## Data
 
-1. Target-by-target results and supplementary information can be found [here](https://drive.google.com/drive/folders/1J8q37Pi6Z95bt79l6OVoBWNrpyPa_t0r?usp=sharing)
-2. Input files can be found [here]()
-3. Output files can be found [here]()
-4. All other models can be found [here]()
+1. Input files can be found [here](watson.cse.eng.auburn.edu/home/project/recon3D/ConQuest/public_release/inputs.tar.gz)
+2. Output files can be found [here](watson.cse.eng.auburn.edu/home/project/recon3D/ConQuest/public_release/outputs.tar.gz)
 
 ## Cite
