@@ -1,9 +1,9 @@
 
-*****************************************************************
-*                          rrQNet                               *
-*         Residue-residue quality estimation net                *
-*  For comments, please email to bhattacharyad@auburn.edu       *
-*****************************************************************
+********************************************************************************
+*                                 rrQNet                                       *
+*  Protein contact map quality estimation by deep evolutionary reconciliation  *
+*         For comments, please email to dbhattacharya@vt.edu                   *
+********************************************************************************
 
 T0968s2.metapsicov-score: 0.7413793103448276
 The score is based on the following contacts: 
