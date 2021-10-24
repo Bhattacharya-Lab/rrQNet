@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-#  rrQNet: Residue-residue quality estimation net
+#  Protein contact map quality estimation by deep evolutionary reconciliation: rrQNet
 #
 #  Copyright (C) Bhattacharya Laboratory 2021
 #
@@ -32,11 +32,11 @@ os.environ["CUDA_VISIBLE_DEVICES"]="-1"
 
 #header
 
-print("\n*****************************************************************")
-print("*                          rrQNet                               *")
-print("*         Residue-residue quality estimation net                *")
-print("*  For comments, please email to bhattacharyad@auburn.edu       *")
-print("*****************************************************************\n")
+print("\n********************************************************************************")
+print("*                                 rrQNet                                       *")
+print("*  Protein contact map quality estimation by deep evolutionary reconciliation  *")
+print("*         For comments, please email to dbhattacharya@vt.edu                   *")
+print("********************************************************************************\n")
 
 parser=optparse.OptionParser()
 parser.add_option('-p', dest='pre',
