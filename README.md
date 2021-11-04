@@ -1,6 +1,6 @@
-<h2>Protein contact map quality estimation by deep evolutionary reconciliation</h2> 
+<h2>rrQNet</h2> 
 
-<TODO: add desc. of rrQNet>
+rrQNet is a deep learning method for protein contact map quality estimation by evolutionary reconciliation.
 
 ## Installation
 
