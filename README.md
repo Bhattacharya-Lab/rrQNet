@@ -47,5 +47,5 @@ rrQNet is very fast. On average it takes only a few seconds on a single core to 
 
 ## Data
 
-1. Input files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/inputs.tar.gz)
-2. Output files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/outputs.tar.gz)
+/*1. Input files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/inputs.tar.gz)
+2. Output files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/outputs.tar.gz)*/
