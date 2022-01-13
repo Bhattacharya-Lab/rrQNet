@@ -45,7 +45,7 @@ The estimated quality score along with selected contacts is generated at `out.tx
 
 rrQNet is very fast. On average it takes only a few seconds on a single core to run rrQNet. However, the running time depends on the sequence length of the target protein. For longer targets, it may take a few minutes to complete.
 
-## Data
+//## Data
 
-/*1. Input files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/inputs.tar.gz)
-2. Output files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/outputs.tar.gz)*/
+//1. Input files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/inputs.tar.gz)
+//2. Output files can be found [here](http://sanger.cse.eng.auburn.edu/rrQNet/downloads/outputs.tar.gz)
